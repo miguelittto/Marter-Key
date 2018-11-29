@@ -7,14 +7,16 @@
   height: 40vmin;
 }
 
-
+body{
+  font-family: 'Bree Serif', serif;
+}
 
 body::-webkit-scrollbar {
   width: 8px;
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: #766CD9;
+  background-color: #2B2B2E;
   border-radius: 5px;
 }
 

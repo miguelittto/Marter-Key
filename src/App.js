@@ -5,9 +5,24 @@ import x6 from '../src/x6.png'
 import x7 from '../src/x7.jpg'
 import {
   Button, ButtonToolbar, Grid, Row, Col,
-  Media, Navbar, Nav, NavItem, NavDropdown, MenuItem, FormGroup, FormControl, Carousel
+  Media, Navbar, Nav, NavItem, NavDropdown, MenuItem,
+  FormGroup, FormControl, Carousel
 } from 'react-bootstrap';
 class App extends Component {
+  dummySentences = [
+    'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    'Donec hendrerit tempor tellus.',
+    'Donec pretium posuere tellus.',
+    'Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.',
+    'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    'Nulla posuere.',
+    'Donec vitae dolor.',
+    'Nullam tristique diam non turpis.',
+    'Cras placerat accumsan nulla.',
+    'Nullam rutrum.',
+    'Nam vestibulum accumsan nisl.'
+  ];
+
   render() {
     return (
       <div>
@@ -58,7 +73,49 @@ class App extends Component {
             <img width={1366} height={618} alt="900x500" src={x7} />
           </Carousel.Item>
         </Carousel>
-        </div>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        
+        <Grid>
+          <Row className="show-grid">
+            <Col sm={6} md={3}>
+              <code>
+                {<h2>Juegos Android</h2>}
+              </code>
+              <br />
+              {this.dummySentences.slice(0, 6).join(' ')}
+            </Col>
+            <Col sm={6} md={3}>
+              <code>
+                {<h2>Aplicaciones</h2>}
+              </code>
+              <br />
+              {this.dummySentences.slice(0, 4).join(' ')}
+            </Col>
+            <Col sm={6} md={3}>
+              <code>
+                {<h2>Juegos Pc</h2>}
+              </code>
+              <br />
+              {this.dummySentences.slice(0, 6).join(' ')}
+            </Col>
+            <Col sm={6} md={3}>
+              <code>
+                {<h2>Programas</h2>}
+              </code>
+              <br />
+              {this.dummySentences.slice(0, 2).join(' ')}
+            </Col>
+          </Row>
+        </Grid>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      </div>
+
     );
   }
 }
