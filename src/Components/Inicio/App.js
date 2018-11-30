@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import x5 from '../src/x5.png'
-import x6 from '../src/x6.png'
-import x7 from '../src/x7.jpg'
+import x5 from '../../Assets/x5.png'
+import x6 from '../../Assets/x6.png'
+import x7 from '../../Assets/x7.jpg'
 import {
   Button, ButtonToolbar, Grid, Row, Col,
   Media, Navbar, Nav, NavItem, NavDropdown, MenuItem,
   FormGroup, FormControl, Carousel
 } from 'react-bootstrap';
+
+
+
 class App extends Component {
   dummySentences = [
     'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
@@ -41,21 +44,21 @@ class App extends Component {
                 <MenuItem eventKey={3.3}>Contactos</MenuItem>
                 <MenuItem eventKey={3.3}>Blog</MenuItem>
               </NavDropdown>
-              <NavItem eventKey={1} href="#">
+              <NavItem onClick={() => this.props.history.push('/hola')}>
                 Juegos Android
-      </NavItem>
-              <NavItem eventKey={2} href="#">
+              </NavItem>
+              <NavItem>
                 Aplicaciones
       </NavItem>
-              <NavItem eventKey={1} href="#">
+              <NavItem>
                 Juegos Pc
       </NavItem>
-              <NavItem eventKey={1} href="#">
+              <NavItem>
                 Programas
-      </NavItem>
-              <NavItem eventKey={1} href="#">
+              </NavItem>
+              <NavItem>
                 Peliculas
-      </NavItem>
+              </NavItem>
             </Nav>
             <Nav pullRight>
             </Nav>
@@ -77,7 +80,7 @@ class App extends Component {
         <br></br>
         <br></br>
         <br></br>
-        
+
         <Grid>
           <Row className="show-grid">
             <Col sm={6} md={3}>
