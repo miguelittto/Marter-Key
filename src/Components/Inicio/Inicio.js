@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Inicio.css';
 import x5 from '../../Assets/x5.png'
 import x6 from '../../Assets/x6.png'
 import x7 from '../../Assets/x7.jpg'
@@ -11,7 +11,7 @@ import {
 
 
 
-class App extends Component {
+class Inicio extends Component {
   dummySentences = [
     'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
     'Donec hendrerit tempor tellus.',
@@ -31,8 +31,8 @@ class App extends Component {
       <div>
         <Navbar inverse collapseOnSelect fixedTop>
           <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#brand">Master Key</a>
+            <Navbar.Brand onClick={() => this.props.history.push('/Inicio')}>
+              <a href="">Master Key</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -44,19 +44,19 @@ class App extends Component {
                 <MenuItem eventKey={3.3}>Contactos</MenuItem>
                 <MenuItem eventKey={3.3}>Blog</MenuItem>
               </NavDropdown>
-              <NavItem onClick={() => this.props.history.push('/hola')}>
+              <NavItem onClick={() => this.props.history.push('/Juegos_Android')}>
                 Juegos Android
               </NavItem>
-              <NavItem>
+              <NavItem onClick={() => this.props.history.push('/Aplicaciones')}>
                 Aplicaciones
       </NavItem>
-              <NavItem>
+              <NavItem onClick={() => this.props.history.push('/Juegos_Pc')}>
                 Juegos Pc
       </NavItem>
-              <NavItem>
+              <NavItem onClick={() => this.props.history.push('/Programas')}>
                 Programas
               </NavItem>
-              <NavItem>
+              <NavItem onClick={() => this.props.history.push('/Pelicula')}>
                 Peliculas
               </NavItem>
             </Nav>
@@ -117,10 +117,11 @@ class App extends Component {
         <br></br>
         <br></br>
         <br></br>
+        
       </div>
 
     );
   }
 }
 
-export default App;
+export default Inicio;

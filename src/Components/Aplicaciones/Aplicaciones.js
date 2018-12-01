@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Juegos_Android.css';
+import './Aplicaciones.css';
 import {
     Button, ButtonToolbar, Grid, Row, Col,
     Media, Navbar, Nav, NavItem, NavDropdown, MenuItem,
     FormGroup, FormControl, Carousel
 } from 'react-bootstrap';
 
-export default class Juegos_Android extends React.Component {
+export default class Aplicaciones extends React.Component {
     render() {
         return (
             <div>

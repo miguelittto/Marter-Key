@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Juegos_Android.css';
+import './Peliculas.css';
 import {
     Button, ButtonToolbar, Grid, Row, Col,
     Media, Navbar, Nav, NavItem, NavDropdown, MenuItem,
     FormGroup, FormControl, Carousel
 } from 'react-bootstrap';
 
-export default class Juegos_Android extends React.Component {
+export default class Peliculas extends React.Component {
     render() {
         return (
             <div>
@@ -37,7 +37,7 @@ export default class Juegos_Android extends React.Component {
                             <NavItem onClick={() => this.props.history.push('/Programas')}>
                                 Programas
               </NavItem>
-                            <NavItem onClick={() => this.props.history.push('/Pelicula')}>
+                            <NavItem onClick={() => this.props.history.push('/Peliculas')}>
                                 Peliculas
               </NavItem>
                         </Nav>
