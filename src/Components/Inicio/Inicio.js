@@ -51,28 +51,28 @@ class Inicio extends Component {
                 {<h2>Juegos Android</h2>}
               </code>
               <br />
-              {this.dummySentences.slice(0, 6).join(' ')}
+              {this.dummySentences.slice(0, 11).join(' ')}
             </Col>
             <Col sm={6} md={3}>
               <code>
                 {<h2>Aplicaciones</h2>}
               </code>
               <br />
-              {this.dummySentences.slice(0, 4).join(' ')}
+              {this.dummySentences.slice(0, 9).join(' ')}
             </Col>
             <Col sm={6} md={3}>
               <code>
                 {<h2>Juegos Pc</h2>}
               </code>
               <br />
-              {this.dummySentences.slice(0, 6).join(' ')}
+              {this.dummySentences.slice(0, 8).join(' ')}
             </Col>
             <Col sm={6} md={3}>
               <code>
                 {<h2>Programas</h2>}
               </code>
               <br />
-              {this.dummySentences.slice(0, 2).join(' ')}
+              {this.dummySentences.slice(0, 12).join(' ')}
             </Col>
           </Row>
         </Grid>
@@ -80,7 +80,7 @@ class Inicio extends Component {
         <br></br>
         <br></br>
         <br></br>
-        
+
       </div>
 
     );
