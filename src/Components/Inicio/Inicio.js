@@ -4,11 +4,9 @@ import x5 from '../../Assets/x5.png'
 import x6 from '../../Assets/x6.png'
 import x7 from '../../Assets/x7.jpg'
 import {
-  Button, ButtonToolbar, Grid, Row, Col,
-  Media, Navbar, Nav, NavItem, NavDropdown, MenuItem,
-  FormGroup, FormControl, Carousel
+  Grid, Row, Col, Carousel
 } from 'react-bootstrap';
-
+import NavBar from '../Navbar/Navbar';
 
 
 class Inicio extends Component {
@@ -29,42 +27,7 @@ class Inicio extends Component {
   render() {
     return (
       <div>
-        <Navbar inverse collapseOnSelect fixedTop>
-          <Navbar.Header>
-            <Navbar.Brand onClick={() => this.props.history.push('/Inicio')}>
-              <a href="">Master Key</a>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <NavDropdown eventKey={3} title="" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>Informacion</MenuItem>
-                <MenuItem eventKey={3.2}>Redes Sociales</MenuItem>
-                <MenuItem eventKey={3.3}>Contactos</MenuItem>
-                <MenuItem eventKey={3.3}>Blog</MenuItem>
-              </NavDropdown>
-              <NavItem onClick={() => this.props.history.push('/Juegos_Android')}>
-                Juegos Android
-              </NavItem>
-              <NavItem onClick={() => this.props.history.push('/Aplicaciones')}>
-                Aplicaciones
-      </NavItem>
-              <NavItem onClick={() => this.props.history.push('/Juegos_Pc')}>
-                Juegos Pc
-      </NavItem>
-              <NavItem onClick={() => this.props.history.push('/Programas')}>
-                Programas
-              </NavItem>
-              <NavItem onClick={() => this.props.history.push('/Pelicula')}>
-                Peliculas
-              </NavItem>
-            </Nav>
-            <Nav pullRight>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>;
-
+        <NavBar history={this.props.history}></NavBar>
         <Carousel>
           <Carousel.Item>
             <img width={1366} height={618} alt="900x500" src={x5} />

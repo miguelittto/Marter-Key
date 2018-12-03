@@ -16,19 +16,19 @@ export default class Rutas extends React.Component {
                     <Route exact path="/" component={Inicio}></Route>
                     
                     <Route path="/Juegos_Android" component={Juegos_Android} />
-                    <Route exact path="/" component={Inicio}></Route>
+                    
                     
                     <Route path="/Aplicaciones" component={Aplicaciones} />
-                    <Route exact path="/" component={Inicio}></Route>
+                    
                     
                     <Route path="/Juegos_Pc" component={Juegos_Pc} />
-                    <Route exact path="/" component={Inicio}></Route>
+                    
                     
                     <Route path="/Programas" component={Programas} />
-                    <Route exact path="/" component={Inicio}></Route>
+                    
                     
                     <Route path="/Peliculas" component={Peliculas} />
-                    <Route exact path="/" component={Inicio}></Route>
+                   
                 </Switch>
             </Router>
         );
