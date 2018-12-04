@@ -14,6 +14,8 @@ export default class Rutas extends React.Component {
                 <Switch>
                     <Route path="/Inicio" component={Inicio} />
                     <Route exact path="/" component={Inicio}></Route>
+
+                    <Route path="/Inicio" component={Inicio} />
                     
                     <Route path="/Juegos_Android" component={Juegos_Android} />
                     

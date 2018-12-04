@@ -17,12 +17,9 @@ export default class NavBar extends React.Component {
             </Navbar.Header>
             <Navbar.Collapse>
               <Nav>
-                <NavDropdown eventKey={3} title="" id="basic-nav-dropdown">
-                  <MenuItem eventKey={3.1}>Informacion</MenuItem>
-                  <MenuItem eventKey={3.2}>Redes Sociales</MenuItem>
-                  <MenuItem eventKey={3.3}>Contactos</MenuItem>
-                  <MenuItem eventKey={3.3}>Blog</MenuItem>
-                </NavDropdown>
+                <NavItem onClick={() => this.props.history.push('/Inicio')}>
+                  Inicio
+                </NavItem>
                 <NavItem onClick={() => this.props.history.push('/Juegos_Android')}>
                   Juegos Android
                 </NavItem>
