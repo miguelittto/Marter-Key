@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import './Inicio.css';
 import m2 from '../../Assets/m2.jpg'
+import m1 from '../../Assets/m1.jpg'
+import m3 from '../../Assets/m3.jpg'
+import j1 from '../../Assets/j1.jpg'
+import j2 from '../../Assets/j2.jpg'
+import j3 from '../../Assets/j3.jpg'
+import j4 from '../../Assets/j4.jpg'
+import j5 from '../../Assets/j5.jpg'
 import {
   Grid, Row, Col, Carousel
 } from 'react-bootstrap';
@@ -15,10 +22,48 @@ class Inicio extends Component {
         <NavBar history={this.props.history}></NavBar>
         <br></br>
         <br></br>
-        
-            <img width={1359} height={150} alt="900x500" src={m2} />
-          
+        <Carousel>
+  <Carousel.Item>
+    <img width={1367} height={200} src={m2} />
+    
+  </Carousel.Item>
+  <Carousel.Item>
+    <img width={1367} height={200} src={m1} />
+    
+  </Carousel.Item>
+  <Carousel.Item>
+    <img width={1367} height={200} src={m3} />
+     </Carousel.Item>
+</Carousel>;
 
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <Grid>
+  
+  <Row className="show-grid">
+    <Col xs={5} md={2}>
+      <img src={j1}/>
+    </Col>
+    <Col xs={5} md={2}>
+    <img src={j2}/>
+    </Col>
+    <Col xs={5} md={2}>
+    <img src={j3}/>
+    </Col>
+    <Col xs={5} md={2}>      
+    <img src={j4}/>
+    </Col>
+    <Col xs={5} md={2}>      
+    <img src={j5}/>
+    </Col>
+    <Col xs={5} md={1}>
+    <img src={j3}/>
+    </Col>
+  </Row>
+
+</Grid>;
         <br></br>
         <br></br>
         <br></br>
