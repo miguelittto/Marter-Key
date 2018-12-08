@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Inicio.css';
-import x5 from '../../Assets/x5.png'
-import x6 from '../../Assets/x6.png'
-import x7 from '../../Assets/x7.jpg'
+import m2 from '../../Assets/m2.jpg'
 import {
   Grid, Row, Col, Carousel
 } from 'react-bootstrap';
@@ -13,18 +11,13 @@ class Inicio extends Component {
   render() {
     return (
       <div>
+        <br></br>
         <NavBar history={this.props.history}></NavBar>
-        <Carousel>
-          <Carousel.Item>
-            <img width={1366} height={618} alt="900x500" src={x5} />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img width={1366} height={618} alt="900x500" src={x6} />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img width={1366} height={618} alt="900x500" src={x7} />
-          </Carousel.Item>
-        </Carousel>
+        <br></br>
+        <br></br>
+        
+            <img width={1359} height={150} alt="900x500" src={m2} />
+          
 
         <br></br>
         <br></br>

@@ -5,7 +5,6 @@ import Juegos_Android from '../Components/Juegos_Android/Juegos_Android';
 import Aplicaciones from '../Components/Aplicaciones/Aplicaciones';
 import Juegos_Pc from '../Components/Juegos_Pc,/Juegos_Pc';
 import Programas from '../Components/Programas/Programas';
-import Peliculas from '../Components/Peliculas/Peliculas';
 
 export default class Rutas extends React.Component {
     render() {
@@ -19,18 +18,12 @@ export default class Rutas extends React.Component {
                     
                     <Route path="/Juegos_Android" component={Juegos_Android} />
                     
-                    
                     <Route path="/Aplicaciones" component={Aplicaciones} />
-                    
                     
                     <Route path="/Juegos_Pc" component={Juegos_Pc} />
                     
-                    
                     <Route path="/Programas" component={Programas} />
                     
-                    
-                    <Route path="/Peliculas" component={Peliculas} />
-                   
                 </Switch>
             </Router>
         );
