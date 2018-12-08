@@ -9,7 +9,7 @@ import j3 from '../../Assets/j3.jpg'
 import j4 from '../../Assets/j4.jpg'
 import j5 from '../../Assets/j5.jpg'
 import {
-  Grid, Row, Col, Carousel
+  Grid, Row, Col, Carousel, Thumbnail, Button
 } from 'react-bootstrap';
 import NavBar from '../Navbar/Navbar';
 
@@ -34,7 +34,7 @@ class Inicio extends Component {
   <Carousel.Item>
     <img width={1367} height={200} src={m3} />
      </Carousel.Item>
-</Carousel>;
+</Carousel>
 
         <br></br>
         <br></br>
@@ -43,8 +43,8 @@ class Inicio extends Component {
         <Grid>
   
   <Row className="show-grid">
-    <Col xs={5} md={2}>
-      <img src={j1}/>
+  <Col xs={5} md={2}>
+    <img src={j1}/>
     </Col>
     <Col xs={5} md={2}>
     <img src={j2}/>
@@ -63,7 +63,7 @@ class Inicio extends Component {
     </Col>
   </Row>
 
-</Grid>;
+</Grid>
         <br></br>
         <br></br>
         <br></br>

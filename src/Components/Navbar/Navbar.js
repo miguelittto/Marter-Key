@@ -40,16 +40,16 @@ export default class NavBar extends React.Component {
 
 
           <Nav pullRight>
-            <NavItem onClick={() => this.props.history.push('/Peliculas')}>
+            <NavItem onClick={() => this.props.history.push('/Programas')}>
               <img src={t} />
             </NavItem>
-            <NavItem onClick={() => this.props.history.push('/Peliculas')}>
+            <NavItem onClick={() => this.props.history.push('/Programas')}>
               <img src={f} />
             </NavItem>
-            <NavItem onClick={() => this.props.history.push('/Peliculas')}>
+            <NavItem onClick={() => this.props.history.push('/Programas')}>
               <img src={y} />
             </NavItem>
-            <NavItem onClick={() => this.props.history.push('/Peliculas')}>
+            <NavItem onClick={() => this.props.history.push('/Programas')}>
               <img src={w} />
             </NavItem>
           </Nav>
