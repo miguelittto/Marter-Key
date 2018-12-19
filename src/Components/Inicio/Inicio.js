@@ -43,22 +43,22 @@ class Inicio extends Component {
         <Grid>
   
   <Row className="show-grid">
-  <Col xs={5} md={2}>
+  <Col xs={6} md={2}>
     <img src={j1}/>
     </Col>
-    <Col xs={5} md={2}>
+    <Col xs={6} md={2}>
     <img src={j2}/>
     </Col>
-    <Col xs={5} md={2}>
+    <Col xs={6} md={2}>
     <img src={j3}/>
     </Col>
-    <Col xs={5} md={2}>      
+    <Col xs={6} md={2}>      
     <img src={j4}/>
     </Col>
-    <Col xs={5} md={2}>      
+    <Col xs={6} md={2}>      
     <img src={j5}/>
     </Col>
-    <Col xs={5} md={1}>
+    <Col xs={6} md={2}>
     <img src={j3}/>
     </Col>
   </Row>

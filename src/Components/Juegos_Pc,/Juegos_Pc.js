@@ -43,8 +43,8 @@ export default class Juegos_Pc extends React.Component {
                 <br></br>
                 <Grid>
 
-                    <Row className="show-grid">
-                        <Col xs={4} md={2}>
+                <Row className="show-grid">
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j1}>
                                 <h3>Mass Effect</h3>
                                 <p>
@@ -52,7 +52,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j2}>
                                 <h3>Battlefleld 1</h3>
                                 <p>
@@ -60,7 +60,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j3}>
                                 <h3>Battlefleld</h3>
                                 <p>
@@ -68,7 +68,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j4}>
                                 <h3>Watch D. 2</h3>
                                 <p>
@@ -76,25 +76,11 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j5}>
-                                <h3>mortal K..</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j3}>
-                                <h3>Mass Effect</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
+                        
                     </Row>
+
                     <Row className="show-grid">
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j1}>
                                 <h3>Mass Effect</h3>
                                 <p>
@@ -102,7 +88,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j2}>
                                 <h3>Battlefleld 1</h3>
                                 <p>
@@ -110,7 +96,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j3}>
                                 <h3>Battlefleld</h3>
                                 <p>
@@ -118,7 +104,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
+                        <Col xs={5} md={3}><br></br>
                             <Thumbnail src={j4}>
                                 <h3>Watch D. 2</h3>
                                 <p>
@@ -126,122 +112,7 @@ export default class Juegos_Pc extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j5}>
-                                <h3>mortal K..</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j3}>
-                                <h3>Mass Effect</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                    </Row>
-                    <Row className="show-grid">
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j1}>
-                                <h3>Mass Effect</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j2}>
-                                <h3>Battlefleld 1</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j3}>
-                                <h3>Battlefleld</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j4}>
-                                <h3>Watch D. 2</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j5}>
-                                <h3>mortal K..</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j3}>
-                                <h3>Mass Effect</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                    </Row>
-                    <Row className="show-grid">
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j1}>
-                                <h3>Mass Effect</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j2}>
-                                <h3>Battlefleld 1</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j3}>
-                                <h3>Battlefleld</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j4}>
-                                <h3>Watch D. 2</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j5}>
-                                <h3>mortal K..</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
-                        <Col xs={4} md={2}>
-                            <Thumbnail src={j3}>
-                                <h3>Mass Effect</h3>
-                                <p>
-                                    <Button bsStyle="link">Descargar</Button>
-                                </p>
-                            </Thumbnail>
-                        </Col>
+                        
                     </Row>
 
                 </Grid>
