@@ -44,7 +44,7 @@ export default class Aplicaciones extends React.Component {
                 <Grid>
 
                 <Row className="show-grid">
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j1}>
                                 <h3>Mass Effect</h3>
                                 <p>
@@ -52,7 +52,7 @@ export default class Aplicaciones extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j2}>
                                 <h3>Battlefleld 1</h3>
                                 <p>
@@ -60,7 +60,7 @@ export default class Aplicaciones extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j3}>
                                 <h3>Battlefleld</h3>
                                 <p>
@@ -68,7 +68,7 @@ export default class Aplicaciones extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j4}>
                                 <h3>Watch D. 2</h3>
                                 <p>
@@ -80,7 +80,7 @@ export default class Aplicaciones extends React.Component {
                     </Row>
 
                     <Row className="show-grid">
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j1}>
                                 <h3>Mass Effect</h3>
                                 <p>
@@ -88,7 +88,7 @@ export default class Aplicaciones extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j2}>
                                 <h3>Battlefleld 1</h3>
                                 <p>
@@ -96,7 +96,7 @@ export default class Aplicaciones extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j3}>
                                 <h3>Battlefleld</h3>
                                 <p>
@@ -104,7 +104,7 @@ export default class Aplicaciones extends React.Component {
                                 </p>
                             </Thumbnail>
                         </Col>
-                        <Col xs={5} md={3}><br></br>
+                        <Col xs={6} md={3}><br></br>
                             <Thumbnail src={j4}>
                                 <h3>Watch D. 2</h3>
                                 <p>
